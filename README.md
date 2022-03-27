@@ -27,11 +27,12 @@ Application video [demo]()
 
 ## Description:
 
-This project required to build a Node.js ecpommerce back end application that will have the same fundanmental achitecture such as shopify or Woocommerce.
-The ecommerce application will be link to a Mysql database.
-It will use the the Express.js API and Sequelize to to interect with the database
+This project is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. We will use Express.js for routing, a MongoDB database, and the Mongoose ODM. Additionally a native JavaScript `Date` object to format timestamps will be used.
 
 ## pseudo code description
+
+- created a readme file and the project described
+- file structure created
 
 ## Build process
 
