@@ -33,6 +33,7 @@ This project is to build an API for a social network web application where users
 
 - created a readme file and the project described
 - file structure created
+- created an environment to test all the requested API end point for the application
 
 ## Build process
 
