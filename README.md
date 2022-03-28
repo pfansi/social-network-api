@@ -7,8 +7,8 @@
 - [Git-Repository](#git-repository)
 - [Demo-Video](#walktrough-video)
 - [Description](#description)
-- [Pseudo-code-Description](#pseudo-code-description)
 - [Build-Process](#build-process)
+- [API-end-points](API-end-points)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
@@ -29,13 +29,36 @@ Application video [demo]()
 
 This project is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. We will use Express.js for routing, a MongoDB database, and the Mongoose ODM. Additionally a native JavaScript `Date` object to format timestamps will be used.
 
-## pseudo code description
+## Build process
 
 - created a readme file and the project described
 - file structure created
 - created an environment to test all the requested API end point for the application
 
-## Build process
+## API end points
+
+#### users
+
+- Get all users: GET /api/users
+- Create a user: POST /api/users
+- Get user by ID: GET /api/users/:id
+- Update a user: PUT /api/users/:id
+- Delete a user: DELETE /api/users/:id
+- Add a friend: PUT /api/users/:userId/friends/:friendId
+- Delete a friend: DELETE /api/users/:userId/friends/:friendId
+
+### Thought
+
+- Get all thoughts: GET /api/thoughts
+- Create a thought: POST /api/thoughts
+- Get thought by ID: GET /api/thoughts/:id
+- Update a thought: PUT /api/thoughts/:id
+- Delete a thought: DELETE /api/thoughts/:id
+
+### Reaction
+
+- Add a reaction: PUT /api/thoughts/:id/reactions
+- Delete a reaction: DELETE /api/thoughts/:id/reactions
 
 ## Installation:
 
@@ -49,6 +72,10 @@ Run this command to install dependencies:
 
 ## Usage:
 
+```md
+You have to install MongoDB on your local machine
+```
+
 ---
 
 Run this command to start the app:
@@ -56,6 +83,10 @@ Run this command to start the app:
   <pre><code>
   npm run start
   </code></pre>
+
+```md
+Then Use your browser or an app like Insomnia to test the REST API.
+```
 
 ## Tests:
 
