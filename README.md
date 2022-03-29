@@ -23,8 +23,10 @@ I created a git repository folder that will host the finished project. The Repos
 
 ## Link to the walktrough video
 
-- Demo that shows test to create users, return a single user and all users, update user details and delete user in Insomnia. [click here](https://drive.google.com/file/d/13EHiHyiCyGSaT6NST1RH4bzd5Mi6pw4E/view)
-- Demo video that shows test to add and remove friend in Insomnia. [click here](https://drive.google.com/file/d/1g9-_Q5m1GKm72PtGQBezsSqrKl05oY8k/view)
+- Demo that shows test to CREATE users, RETURN a single user and all users, UPDATE and DELETE user details in Insomnia. [click here](https://drive.google.com/file/d/13EHiHyiCyGSaT6NST1RH4bzd5Mi6pw4E/view)
+- Demo video that shows test to ADD and REMOVE FRIEND in Insomnia. [click here](https://drive.google.com/file/d/1g9-_Q5m1GKm72PtGQBezsSqrKl05oY8k/view)
+- Demo video that shows test to to CREATE, UPDATE , DELETE, RETURN a single and all THOUGHTS in Insomnia.. [click here](https://drive.google.com/file/d/1BhGZ2irzsgJV8kSTD8NGSVJX79W8WmUX/view)
+- Demo video that shows test to CREATE and REMOVE REACTION in Insomnia. [click here](https://drive.google.com/file/d/1g9-_Q5m1GKm72PtGQBezsSqrKl05oY8k/view)
 
 ## Description:
 
