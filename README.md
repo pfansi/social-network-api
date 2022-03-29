@@ -7,7 +7,6 @@
 - [Git-Repository](#git-repository)
 - [Demo-Video](#walktrough-video)
 - [Description](#description)
-- [Build-Process](#build-process)
 - [API-end-points](API-end-points)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -15,7 +14,6 @@
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
-- [Screenshots](#screenshots)
 
 ## Git Repository
 
@@ -24,19 +22,16 @@ I created a git repository folder that will host the finished project. The Repos
 ## Link to the walktrough video
 
 - Demo that shows test to CREATE users, RETURN a single user and all users, UPDATE and DELETE user details in Insomnia. [click here](https://drive.google.com/file/d/13EHiHyiCyGSaT6NST1RH4bzd5Mi6pw4E/view)
+
 - Demo video that shows test to ADD and REMOVE FRIEND in Insomnia. [click here](https://drive.google.com/file/d/1g9-_Q5m1GKm72PtGQBezsSqrKl05oY8k/view)
+
 - Demo video that shows test to to CREATE, UPDATE , DELETE, RETURN a single and all THOUGHTS in Insomnia.. [click here](https://drive.google.com/file/d/1BhGZ2irzsgJV8kSTD8NGSVJX79W8WmUX/view)
-- Demo video that shows test to CREATE and REMOVE REACTION in Insomnia. [click here](https://drive.google.com/file/d/1g9-_Q5m1GKm72PtGQBezsSqrKl05oY8k/view)
+
+- Demo video that shows test to CREATE and REMOVE REACTION in Insomnia. [click here](https://drive.google.com/file/d/1-LjrQMJdv-X1XNL6-BVPk6EiWkbsuLS4/view)
 
 ## Description:
 
 This project is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. We will use Express.js for routing, a MongoDB database, and the Mongoose ODM. Additionally a native JavaScript `Date` object to format timestamps will be used.
-
-## Build process
-
-- created a readme file and the project described
-- file structure created
-- created an environment to test all the requested API end point for the application
 
 ## API end points
 
@@ -114,11 +109,3 @@ Project is open for contributions.
 - **Contact details:**
   - Github: [@pfansi](https://github.com/pfansi)
   - Email: pfansi76@gmail.com
-
-## Screenshots
-
-- Total test executed screenshot. br/
-  ![screenshot]()
-
-- Screenshot of the
-  ![screenshot]()
